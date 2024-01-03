@@ -1,0 +1,447 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-page {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.navbar {
+  background-color: black;
+  color: #fff;
+  padding-left: 3rem;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  word-spacing: 10px;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  margin-right: 70px;
+  font-size: 18px;
+}
+
+.nav-drop {
+  padding-top: 7px;
+  color: red;
+}
+
+.nav-sec {
+  background-color: black;
+  color: red;
+}
+
+.nav-item a:hover {
+  color: red;
+}
+
+.description-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.description-text {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.description-about-container {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 1200px;
+  height: 1500px;
+  margin: 0 auto;
+  padding-left:100px;
+  padding-right:100px;
+  margin-left: 170px;
+}
+
+.description-profile-container {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  padding-left:100px;
+  padding-right:100px;
+  margin-left: 170px;
+}
+
+.description-contact-container {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  padding-left:300px;
+  margin-left: 200px;
+}
+
+.description-pre-container {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  padding-left:200px;
+  margin-left: 200px;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: white;
+  border-radius: 10px;
+  padding: 50px 40px;
+}
+
+.wrapper h1 {
+  
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  padding: 20px 45px 20px 20px;
+}
+
+
+.input-box input::placeholder {
+  color: white;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: white;
+  margin-right: none;
+}
+
+.remember-forgot a {
+  color: white;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.form-btn {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: red;
+  font-weight: 600;
+}
+
+.form-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+
+.comment-input {
+  width: 40%; 
+  height: 50px;
+  padding-left: 20px;
+  border-color: red;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: red;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: white;
+}
+
+.box-rec {
+  background-color:black;
+  color: white;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding-left: 140px;
+  padding-right: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.button {
+  width: 12%;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s color 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+  background-color: white;
+  border-color: red;
+  margin-left:10px;
+}
+
+.button-contact {
+  width: 18%;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s color 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+  background-color: white;
+  border-color: red;
+  margin-left: 288px;
+}
+.button-wlist {
+  width: 19%;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s color 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+  background-color: white;
+  border-color: red;
+  margin-left: 81%;
+}
+
+.button-wlist:hover {
+  background-color: red;
+  color: white;
+}
+
+.button-profile-edit {
+  width: 300%;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s color 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+  background-color: white;
+  border-color: red;
+  margin-left: 288px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.button-profile-logout {
+  width: 125px;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s color 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+  background-color: white;
+  border-color: red;
+  margin-left: 288px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 500px;
+}
+
+.button-profile-logout:hover {
+  background-color: red;
+  color: white;
+}
+
+.button-profile-edit:hover {
+  background-color: red;
+  color: white;
+}
+
+.button-contact:hover {
+  background-color: red;
+  color: white;
+}
+
+.button:hover {
+  background-color: red;
+  color: white;
+}
+
+.close-button {
+  cursor: pointer;
+  width: 40px;
+  height: 100px;
+  margin-right: 75px;
+  background-color: white;
+}
+
+.close-button:hover {
+  color: #ff0000; 
+  background-color: white;
+}
+
+.navbar--content {
+  background-color: red;
+}
+
+.footer--container {
+    display: flex;
+    padding: 106.667px 200.333px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--bg-shade);
+    align-items: center;
+    align-self: stretch;
+    background-color: black;
+  }
+
+  .footer-container {
+    margin-bottom: 50px;
+  }
+  
+  .footer--link--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+  }
+  .footer--items > ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 42.667px;
+    text-decoration: none;
+  }
+  .footer--items ul > li > a {
+    text-decoration: none;
+    cursor:pointer;
+  }
+  .footer--social--icon > ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    text-decoration: none;
+  }
+  .divider {
+    margin: 106px 0 42.67px;
+    height: 1.333px;
+    width: 100%;
+    background: rgba(40, 41, 56, 0.55);
+    color:red;
+  }
+  .footer--content--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+  }
+  .footer--content {
+    color: var(--black);
+    font-size: 18.667px;
+    font-weight: 400;
+    line-height: 28px;
+  }
